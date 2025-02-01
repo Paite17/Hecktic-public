@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8038823617376269231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7642023395473573584}
+  - component: {fileID: 7956600963997722306}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7642023395473573584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8038823617376269231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -26.121016, y: 9.473333, z: -0.01936941}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7956600963997722306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8038823617376269231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea91fd98caceaa4e9e4636a22fdd854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: TitleScreen
+    clip: {fileID: 8300000, guid: e539f2a9afde9bb4598898942719aad6, type: 3}
+    loop: 1
+    volume: 0.491
+    pitch: 1
+    source: {fileID: 0}
+  - name: Overworld1
+    clip: {fileID: 8300000, guid: f1a7e39af636c18498347b3db4ec43b1, type: 3}
+    loop: 1
+    volume: 0.491
+    pitch: 1
+    source: {fileID: 0}
+  - name: Overworld2
+    clip: {fileID: 8300000, guid: 3b5388b69d5c1d3499a7f976f5191b44, type: 3}
+    loop: 1
+    volume: 0.491
+    pitch: 1
+    source: {fileID: 0}
+  - name: Invincibility
+    clip: {fileID: 8300000, guid: 2045ea82bb1893445b5719d7f0fd485e, type: 3}
+    loop: 1
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: Connecting
+    clip: {fileID: 8300000, guid: 5d13be5ea3d930d41b9f84102a8ad51b, type: 3}
+    loop: 1
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: McGuffinSpawned
+    clip: {fileID: 8300000, guid: 7e81782f7f160f1488988962bedeb420, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: ResultsLoop
+    clip: {fileID: 8300000, guid: cd7e14128f7d9a14abb7f72f86f1a6b6, type: 3}
+    loop: 1
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: MatchWin
+    clip: {fileID: 8300000, guid: 249b814457f69244089ca4c445145558, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: MatchLose
+    clip: {fileID: 8300000, guid: 390e3f5542737274bbb67385e740c47b, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: MatchDraw
+    clip: {fileID: 8300000, guid: cd396cf015a098a4f9c6b32cafce9e25, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: Pause
+    clip: {fileID: 8300000, guid: f18bb91823367234b85a6a1653375bd8, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerGetsMcGuffin
+    clip: {fileID: 8300000, guid: 910b707009791024da946e537b2b21c2, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemyGetsMcGuffin
+    clip: {fileID: 8300000, guid: ed0d3efbbf6301b4abcb026a9c532001, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: GameStart
+    clip: {fileID: 8300000, guid: d5c2976155b6d86499be136c346cd6a6, type: 3}
+    loop: 0
+    volume: 0.324
+    pitch: 1
+    source: {fileID: 0}
+  - name: BrickBreak
+    clip: {fileID: 8300000, guid: a2f9c10d62a92b347a4c187646f38c4e, type: 3}
+    loop: 0
+    volume: 0.712
+    pitch: 1
+    source: {fileID: 0}
+  - name: PowerupBlock
+    clip: {fileID: 8300000, guid: b6f25ea4e8a659b48ae4fddbeaeb9719, type: 3}
+    loop: 0
+    volume: 0.695
+    pitch: 1
+    source: {fileID: 0}
+  - name: CoinCollect
+    clip: {fileID: 8300000, guid: 16d7ac6a44ca0044a872ed77f9e38624, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: ConnectionLost
+    clip: {fileID: 8300000, guid: 9a34d9eb81bf2c747b84ed72516d9deb, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: Powerdown
+    clip: {fileID: 8300000, guid: 7ff9fc580ed76da4893bb8a3c12139ba, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: ea5ccc7a0ec7ac248a4bca59bdd69106, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: OtherDeath
+    clip: {fileID: 8300000, guid: f541a89baab707d42b380671ed3aecde, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerBump
+    clip: {fileID: 8300000, guid: 6618db177f31944429c752b02a5c25cb, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: PowerupSpawn
+    clip: {fileID: 8300000, guid: 22526ca386c95134594025dca92d9134, type: 3}
+    loop: 0
+    volume: 0.901
+    pitch: 1
+    source: {fileID: 0}
+  - name: Powerup
+    clip: {fileID: 8300000, guid: 8e6ae6a9172c0d14e8ddb91f2c69bc0e, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: GiantPowerup
+    clip: {fileID: 8300000, guid: 349fd4efa587f574199f78db8e3592f3, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: GiantPowerdown
+    clip: {fileID: 8300000, guid: 7e9e20588786cac4aaadcfa6b7389f6b, type: 3}
+    loop: 0
+    volume: 0.618
+    pitch: 1
+    source: {fileID: 0}
+  - name: ElectricPowerup
+    clip: {fileID: 8300000, guid: f8732155427e51f428c118389b7c16c0, type: 3}
+    loop: 1
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: GiantAppearFromBlock
+    clip: {fileID: 8300000, guid: f5a3e3304a0765f4f8cb223995c2ee9d, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: GiantBreakBlock
+    clip: {fileID: 8300000, guid: c75ff6af9f9fed846a6ffe6cbe731fa7, type: 3}
+    loop: 0
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: Kick
+    clip: {fileID: 8300000, guid: 20b62cf406513b0498865b4afef1dbd3, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Stomp
+    clip: {fileID: 8300000, guid: 12367a2fba5d5be4db246090ab2454a5, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerFrozen
+    clip: {fileID: 8300000, guid: 5cab6c4dcc553ed4193c37ddc90e0d39, type: 3}
+    loop: 0
+    volume: 0.639
+    pitch: 1
+    source: {fileID: 0}
+  - name: BreakFreeze
+    clip: {fileID: 8300000, guid: 0048ea76be62fe148b4a28c1895c19cd, type: 3}
+    loop: 0
+    volume: 0.639
+    pitch: 1
+    source: {fileID: 0}
+  - name: PowerupReserve
+    clip: {fileID: 8300000, guid: a772c3fdf2da341458dfe0cca6f70266, type: 3}
+    loop: 0
+    volume: 0.639
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerRespawn
+    clip: {fileID: 8300000, guid: 1b15b1a00d7cb4b43a8a8f369c4192c1, type: 3}
+    loop: 0
+    volume: 0.639
+    pitch: 1
+    source: {fileID: 0}
+  - name: BoulderThrow
+    clip: {fileID: 8300000, guid: 0420836e50533884e828a0fcc2f90949, type: 3}
+    loop: 0
+    volume: 0.639
+    pitch: 1
+    source: {fileID: 0}
+  - name: BoulderSmash
+    clip: {fileID: 8300000, guid: 2ed7ccb02f36c4a4d9d8ab67e7ac0206, type: 3}
+    loop: 0
+    volume: 0.639
+    pitch: 1
+    source: {fileID: 0}
+  - name: IceBall
+    clip: {fileID: 8300000, guid: e1a5f7aac72dafd4883c7e4882edfc16, type: 3}
+    loop: 0
+    volume: 0.401
+    pitch: 1
+    source: {fileID: 0}
+  - name: Pipe
+    clip: {fileID: 8300000, guid: f9125c131d32c424db5a3f4b6d1df1c2, type: 3}
+    loop: 0
+    volume: 0.667
+    pitch: 1
+    source: {fileID: 0}
+  - name: Overworld3
+    clip: {fileID: 8300000, guid: 4b0a0ecb79ef17747a939cf09473f4dd, type: 3}
+    loop: 1
+    volume: 0.491
+    pitch: 1
+    source: {fileID: 0}
+  mixer: {fileID: 24100000, guid: d19f2873358d7ab4b819af925f5794cf, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3f591203c798e49bb9facd5cf1c904, type: 3}
+  m_Name: VerticalValley
+  m_EditorClassIdentifier: 
+  mapName: Vertical Valley
+  player1SpawnX: -10.24
+  player1SpawnY: 1.32
+  player2SpawnX: 4.51
+  player2SpawnY: 1.32
+  leftSideEdge: 0
+  rightSideEdge: 28.28
+  mcguffinSpawnLocations:
+  - {x: -1.31, y: 5.98}
+  - {x: 2.79, y: 13.85}
+  - {x: 3.1, y: 13.85}
+  - {x: -0.6, y: 23.22}
+  - {x: 8.25, y: 23.06}
+  - {x: 9.74, y: 23.06}
+  stageisVertical: 1

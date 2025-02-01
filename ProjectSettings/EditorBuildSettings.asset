@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Disclaimer.unity
+    guid: 0a4eeb99c2d87af4f85b77352c9fb1d5
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 13a679e53782a63428f886a81b9e16dc
+  - enabled: 1
+    path: Assets/Scenes/GroundLand.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/CommunicationError.unity
+    guid: 8a09feeba021f554bb5784de2473209b
+  - enabled: 1
+    path: Assets/Scenes/LevelScene.unity
+    guid: 71ec8bc39d56aa34083a8b19c2134f0e
+  - enabled: 1
+    path: Assets/Scenes/VerticalValley.unity
+    guid: 26d56ead9f03da34fb241d87f2e3b3de
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 04a39abfe40f11e40ba42c656dce8301, type: 2}
